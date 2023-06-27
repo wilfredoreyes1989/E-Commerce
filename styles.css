@@ -315,6 +315,11 @@ FEATURES
   background-color: rgba(115, 66, 214, 0.1);
 }
 
+.fa-star-half-alt:before {
+    display: none;
+}
+
+
 .books {
   display: flex;
   flex-wrap: wrap;
@@ -458,6 +463,14 @@ select {
   padding-top: 60px;
   font-size: 60px;
   color: #7342d6;
+}
+
+.books__loading--spinner {
+  display: none !important;
+}
+
+.books__loading, .books__loading--spinner {
+  display: block !important;
 }
 
 .fa-spinner {
